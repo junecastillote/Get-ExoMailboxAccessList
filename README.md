@@ -10,6 +10,7 @@
 - [📌 Overview](#-overview)
 - [✨ Features](#-features)
 - [⚙️ Requirements](#️-requirements)
+- [Install the Script](#install-the-script)
 - [📥 Parameters](#-parameters)
 - [💡 Usage Examples](#-usage-examples)
   - [1. Get mailbox access list for a single mailbox](#1-get-mailbox-access-list-for-a-single-mailbox)
@@ -58,6 +59,18 @@ Connect to Exchange Online before running the script:
 ```powershell
 Connect-ExchangeOnline
 ```
+
+---
+
+## Install the Script
+
+You can install this script from [PowerShell Gallery](https://www.powershellgallery.com/packages/Get-ExoMailboxAccesslist) by running this command.
+
+```PowerShell
+Install-Script -Name Get-ExoMailboxAccessList
+```
+
+Or you can just download the [Get-ExoMailboxAccessList.ps1](https://github.com/junecastillote/Get-ExoMailboxAccessList/blob/main/Get-ExoMailboxAccessList.ps1) script from this repository.
 
 ---
 
