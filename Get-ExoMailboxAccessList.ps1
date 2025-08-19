@@ -1,4 +1,6 @@
 
+# Get-ExoMailboxAccessList.ps1
+
 <#PSScriptInfo
 
 .VERSION 0.1
@@ -44,6 +46,19 @@
 .LINK
     https://github.com/junecastillote/Get-ExoMailboxAccess
 .EXAMPLE
+    .\Get-ExoMailboxAccessList.ps1 -MailboxId "Adam Smith"
+
+    Get the mailbox access list for the "Adam Smith" mailbox. The result is displayed on the screen.
+
+.EXAMPLE
+    "Adam Smith","Homer@poshlab.xyz" | .\Get-ExoMailboxAccessList.ps1 -OutputCsv .\result.csv
+
+    Get the mailbox access list for multiple mailboxes through the pipeline. The result is exported to the .\result.csv file.
+
+.EXAMPLE
+    Get-Mailbox -RecipientTypeDetails -ResultSize Unlimited | .\Get-ExoMailboxAccessList.ps1 -OutputCsv .\sharedMailboxAccess.csv
+
+    Get the mailbox access list for all shared mailbox. The result is exported to the .\sharedMailboxAccess.csv file.
 
 #>
 
