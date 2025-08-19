@@ -11,11 +11,11 @@
 
 .COMPANYNAME
 
-.COPYRIGHT
+.COPYRIGHT June Castillote
 
 .TAGS Exchange, Exchange Online, PowerShell, ExchangeOnlineManagement, Mailbox Permission, Permission, Full Access, FullAccess, Send As, SendAs, SendOnBehalf, Send On Behalf
 
-.LICENSEURI
+.LICENSEURI https://github.com/junecastillote/Get-ExoMailboxAccessList/blob/main/LICENSE
 
 .PROJECTURI https://github.com/junecastillote/Get-ExoMailboxAccess
 
